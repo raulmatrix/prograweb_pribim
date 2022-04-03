@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 align="center">Formulario Estudiante</h1>
+
+    <form action="mostrardatos.html" method="get">
+        <label for="">Nombre:</label><br>
+        <input type="text" name="nombres" id="nombres"><br>
+        <label for="">Apellidos:</label><br>
+        <input type="text" name="apellido" id="apellido"><br>
+        <label for="">Habilidades:</label><br>
+        <input type="checkbox" name="musica" id="musica" value="musica">Musica
+        <input type="checkbox" name="deporte" id="deporte" value="deporte">Deporte
+        <input type="checkbox" name="cocina" id="cocina" value="cocina">Cocina
+        <br>
+        <label for="">Sexo:</label><br>
+        <input type="radio" name="sexo" value="hombre"> Hombre 
+        <input type="radio" name="sexo" value="mujer"> Mujer 
+        <input type="radio" name="sexo" value="otro"> Otro
+        <br>
+        <label for="">Ciudad de Origen:</label><br>
+        <select name="origen" id="origen">
+            <option value="">--Elegir Departamento--</option>
+            <option value="1">Cochabamba</option>
+            <option value="2">La Paz</option>
+            <option value="3">Santa Cruz</option>
+            <option value="4">Potosi</option>
+            <option value="5">Chuquisaca</option>
+            <option value="6">Oruro</option>
+            <option value="7">Tarija</option>
+            <option value="8">Beni</option>
+            <option value="9">Pando</option>
+        </select>
+        <br>
+        <label for="">Servicios Basicos:</label><br>
+        <select name="servbasicos" id="servbasicos" size="5" multiple>
+            <option value="agua">Agua</option>
+            <option value="luz">Luz</option>
+            <option value="alcantarillado">Alcantarillado</option>
+            <option value="internet">Internet</option>
+            <option value="gas">Gas</option>
+        </select>
+        <br>
+        <label for="">Fecha Nacimiento:</label><br>
+        <input type="date" name="fnac" id="fnac">
+        <br>
+        <label for="">Informacion Adicional:</label><br>
+        <input type="file" name="archivo" id="archivo">
+        <input type="hidden" name="oculto" id="oculto" value="datooculto">
+        <br>
+        <label for="">Mi edad:</label>
+        <!--<input type="image" src="imagenes/logonocturno.jpg" alt="">
+        -->
+        <input type="number" name="edadescrita" id="edadescrita">
+            <!--<br>
+        <label for="">Edad:</label><br>-->
+        <br>
+        <label for="">Buscar Estudiante:</label>
+        <input type="search" name="buscar" id="buscar">
+        <br>
+        <input type="submit" value="Enviar Datos">
+        <input type="reset" value="Limpiar">
+    </form>
+
+</body>
+</html>
