@@ -1,0 +1,16 @@
+table{
+    border-collapse: collapse;
+
+}
+
+table,th,td{
+    border: 1px solid gray;
+}
+
+th{
+    background-color: rgb(242, 240, 135);
+}
+#contenedorTabla{
+    display: table;
+    margin: 0 auto;
+}

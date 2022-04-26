@@ -1,4 +1,60 @@
-h1{
+
+body{
+    /*background-image: url("../imagenes/logonocturno.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;*/
+}
+h1,h2,h3{
     background-color: rgb(26, 22, 22);
+
+    color: beige;
+    font-size: 20px;
+}
+p{
+    background-color: rgb(124, 118, 118);
     color: beige;
 }
+p span{
+    color: blue;
+}
+#otro{
+    background-color: rgb(86, 88, 88);
+    color: black;
+    font-family: fantasy;
+    font-size: 15px;
+}
+.parrafosobresaliente{
+    background-color: cornflowerblue;
+    color: black;
+    font-family: cursive;
+}
+
+.miborde{
+    /*primera forma*/
+    /*border: 1px solid blue;*/
+    /**segunda forma/
+    border-top: 1px solid red;
+    border-left: 2px solid pink;*/
+    background-color: rgb(100, 237, 241);
+    border-left: 3px solid rgb(63, 63, 241);
+    /*width: 50%;*/
+
+    /*margin*/
+    margin-bottom: 50px;
+    margin-left: 60px;
+
+    /*padding*/
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+
+}
+
+#titulooficial{
+    text-align: center;
+    height: 30px;
+    text-shadow:2px 2px rgb(224, 209, 74);
+
+}
+
